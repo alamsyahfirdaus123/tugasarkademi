@@ -1,0 +1,60 @@
+body {
+    margin: 0px !important;
+}
+
+.headerTop {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: cyan;
+}
+
+.parentsBodyMain {
+    display: flex;
+    padding: 40px;
+}
+
+.parentsBodyMain .left_ .listItemJudul {
+    display: flex;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-top: 15px;
+}
+
+.parentsBodyMain .left_ .listItemJudul .background_pertama {
+    background-color: cyan;
+    width: 120px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    text-align: center;
+}
+
+
+.parentsBodyMain .left_ .listItemJudul .bodyItem {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 70%;
+}
+
+.parentsBodyMain .left_ .listItemJudul .bodyItem .titleItem {
+    margin-block-end: 0 !important;
+    margin-block-start: 0 !important;
+}
+.parentsBodyMain .left_ .listItemJudul .bodyItem .contentItem {
+    margin-block-end: 0 !important;
+    margin-block-start: 0 !important;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.right_ {
+    display: grid;
+    width: 60%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.right_ .backgroudAbu {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: cyan;
+}
